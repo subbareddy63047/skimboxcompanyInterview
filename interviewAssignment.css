@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 100%;
+    padding: 5px;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.submenu{
+    display: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    min-width: 60%;
+    min-height: 35%;
+}
+.edit:hover{
+    background-color: lightblue;
+    padding: 2px;
+}
+.edit:hover div{
+    display: block;
+    position: absolute;
+    top: 120px;
+    
+}
+hr{
+    border: 2px solid black;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+.cut{
+    color: gray;
+    font-weight: bold;
+}
